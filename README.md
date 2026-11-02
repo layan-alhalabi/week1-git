@@ -7,3 +7,5 @@ This repository is created for practicing Git and GitHub.
 - Branching
 - Merging
 - Pull Requests
+This line was edited in branch 1.
+  
