@@ -8,4 +8,4 @@ This repository is created for practicing Git and GitHub.
 - Merging
 - Pull Requests
 This line was edited in branch 1.
-  
+Conflict test line  
