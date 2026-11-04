@@ -1,0 +1,13 @@
+{
+  "name": "week1-se",
+  "version": "1.0.0",
+  "description": "Week 1 Software Engineering Tasks",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc --noEmit",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
