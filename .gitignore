@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+*.log
+express-api/src/*.js
+express-api/src/*.js.map
+express-api/src/*.d.ts
+express-api/src/*.d.ts.map
