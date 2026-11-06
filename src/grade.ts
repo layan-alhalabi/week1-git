@@ -1,22 +1,18 @@
-type LetterGrade = "A" | "B" | "C" | "D" | "F";
+export type LetterGrade = "A" | "B" | "C" | "D" | "F";
 
-function calculatePercentage(scores: number[]): number {
+export function calculatePercentage(scores: number[]): number {
+    if (scores.length === 0) {
+        throw new Error("Scores cannot be empty");
+    }
+
     const total = scores.reduce((sum, score) => sum + score, 0);
     return total / scores.length;
 }
 
-function getLetterGrade(percentage: number): LetterGrade {
+export function getLetterGrade(percentage: number): LetterGrade {
     if (percentage >= 90) return "A";
     if (percentage >= 80) return "B";
     if (percentage >= 70) return "C";
     if (percentage >= 60) return "D";
     return "F";
 }
-
-const scores = [90, 85, 95, 80];
-
-const percentage = calculatePercentage(scores);
-const grade = getLetterGrade(percentage);
-
-console.log("Percentage:", percentage);
-console.log("Letter Grade:", grade);

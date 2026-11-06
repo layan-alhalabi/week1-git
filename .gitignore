@@ -6,3 +6,18 @@ express-api/src/*.js
 express-api/src/*.js.map
 express-api/src/*.d.ts
 express-api/src/*.d.ts.map
+
+# Generated files
+**/node_modules/
+src/*.js
+src/*.js.map
+src/*.d.ts
+src/*.d.ts.map
+week1-react/src/*.js
+week1-react/src/*.js.map
+week1-react/src/*.d.ts
+week1-react/src/*.d.ts.map
+week1-react/vite.config.js
+week1-react/vite.config.js.map
+week1-react/vite.config.d.ts
+week1-react/vite.config.d.ts.map
